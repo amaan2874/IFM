@@ -4,7 +4,7 @@ import { View, Text, TextInput, Pressable, ScrollView } from 'react-native'
 const Home = ({navigation}) => {
   return (
     <ScrollView style={{ margin: 10 }}>
-        <View style={{ backgroundColor: '#019863', height: 60, width: 350, alignSelf: 'center' }}>
+        <View style={{ backgroundColor: '#019863', height: 60, width: 350, alignSelf: 'center', flex:1 }}>
             <Text style={{ fontSize: 30,paddingHorizontal:10,paddingVertical:10,color:'white' }}>hii Amaan!</Text>
         </View>
         <TextInput

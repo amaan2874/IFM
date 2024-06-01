@@ -6,9 +6,12 @@ const Expense = ({navigation}) => {
     <View>
         <ScrollView>
             <View>
-            <View style={{ marginHorizontal: 'auto', display: 'flex', flexDirection: 'row', backgroundColor: 'white', width: 400 }}>
-                <Text onPress={()=>navigation.navigate('SeeDetails')} style={{ fontSize: 50, color: 'black' }}>{"<"}</Text>
-                <Text style={{ fontSize: 30, color: 'black', fontWeight: 'bold', marginVertical: 'auto', marginHorizontal: 'auto' }}>Jumma Expense</Text>
+            <View style={{ marginHorizontal: 'auto', display: 'flex', flexDirection: 'row', backgroundColor: 'white', width: 400,height:70 }}>
+                <Text onPress={()=>navigation.navigate('SeeDetails')} style={{ fontSize:50, color: 'black',textAlign:'center',marginVertical:'auto',flex:1}}>{"<"}</Text>
+
+                <Text style={{ fontSize: 30, color: 'black', fontWeight: 'bold',flex:3 ,textAlign:'center',marginVertical:'auto'}}>Jumma Expense</Text>
+
+                <View style={{flex:1}}></View>
             </View>
 
             <View style={{ backgroundColor: 'white', height: 100, width: 330, marginHorizontal: 'auto', marginTop: 30, marginBottom: 30, borderRadius: 10 }}>

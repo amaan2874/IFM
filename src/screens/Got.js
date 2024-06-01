@@ -4,9 +4,15 @@ import { View,Text,TextInput,Pressable} from 'react-native'
 const Got = ({navigation}) => {
   return (
     <View>
-    <View style={{ marginHorizontal: 'auto', display: 'flex', flexDirection: 'row', width: 400 }}>
-        <Text onPress={() => navigation.navigate('Expense')} style={{ fontSize: 50, color: 'black',marginLeft:3 }}>{"<"}</Text>
-        <Text style={{ fontSize: 20, color: '#019863', fontWeight: 'bold', marginVertical: 'auto', marginHorizontal: 'auto' }}>You Got to $0 Jumma collection</Text>
+    <View style={{  display: 'flex', flexDirection: 'row',marginHorizontal:10 }}>
+
+        <Text onPress={() => navigation.navigate('Expense')} style={{ fontSize: 30, color: '#019863',marginLeft:3,flex:1 ,flex:1,textAlign:'center'}}>{"<"}</Text>
+
+        <Text style={{ fontSize: 20, color: '#019863', fontWeight: 'bold', marginVertical: 'auto',flex:7,textAlign:'center' }}>You Got to $0 Jumma collection</Text>
+
+        <Text style={{ fontSize: 30, color: '#019863', fontWeight: 'bold',textAlign:'center',flex:1 ,lineHeight:33}}>...</Text>
+
+
     </View>
 
     <View>
@@ -21,7 +27,8 @@ const Got = ({navigation}) => {
                 marginStart: 30,
                 marginEnd: 30,
                 padding: 10,
-                borderRadius: 5
+                borderRadius: 5,
+                width:350
             }}
             keyboardType={"number-pad"} />
 
@@ -39,13 +46,14 @@ const Got = ({navigation}) => {
                 marginStart: 30,
                 marginEnd: 30,
                 padding: 10,
-                borderRadius: 5
+                borderRadius: 5,
+                width:350
             }}
             keyboardType={"default"} />
 
     </View>
 
-    <View style={{display:'flex',flexDirection:'row',marginTop:10}}>
+    <View style={{display:'flex',flexDirection:'row',marginTop:10,width:350,alignSelf:'center',justifyContent:'space-between'}}>
         <TextInput
             placeholder="09 Feb 2024"
             style={{
@@ -53,13 +61,11 @@ const Got = ({navigation}) => {
                 color: 'black',
                 borderWidth: 2,
                 borderColor: 'black',
-                marginHorizontal:'auto',
-                
                 padding: 10,
                 borderRadius: 5,
                 width: 150
             }}
-            keyboardType={"number-pad"} />
+            keyboardType={"default"} />
 
         <TextInput
          onPress={()=>navigation.navigate('Bills')}
@@ -69,7 +75,6 @@ const Got = ({navigation}) => {
                 color: 'black',
                 borderWidth: 2,
                 borderColor: 'black',
-                marginHorizontal:'auto',
                 padding: 10,
                 borderRadius: 5,
                 width: 150
@@ -90,7 +95,8 @@ const Got = ({navigation}) => {
                 marginStart: 30,
                 marginEnd: 30,
                 padding: 10,
-                borderRadius: 5
+                borderRadius: 5,
+                width:350
             }}
             keyboardType={"default"} />
 
@@ -107,7 +113,8 @@ const Got = ({navigation}) => {
                     borderRadius: 5,
                     fontSize: 25,
                     textAlign: 'center',
-                    paddingTop: 8
+                    paddingTop: 8,
+                    width:350
                 }}>Save</Text>
             </Pressable>
 

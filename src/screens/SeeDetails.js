@@ -10,11 +10,11 @@ const SeeDetails = ({ navigation }) => {
             <View style={{ height: 150, width: 150, backgroundColor: 'white', alignSelf: 'center', marginTop: -70, borderRadius: 100, borderWidth: 2, borderColor: 'black' }}>
             </View>
             <View>
-                <Text style={{ fontSize: 40, fontWeight: 'bold', color: 'black', textAlign: 'center' }}>Full name</Text>
+                <Text style={{ fontSize: 30, fontWeight: 'bold', color: 'black', textAlign: 'center' }}>Full name</Text>
 
-                <Text style={{ fontSize: 22, color: 'grey', textAlign: 'center' }}>Professional title</Text>
+                <Text style={{ fontSize: 18, color: 'grey', textAlign: 'center' }}>Professional title</Text>
 
-                <Text style={{ fontSize: 22, color: 'grey', textAlign: 'center', marginTop: 30, paddingHorizontal: 40 }}>Bio: Ea dol djdjf and fkfk ffj lakkd llafjks ifif occset.</Text>
+                <Text style={{ fontSize: 18, color: 'grey', textAlign: 'center', marginTop: 30, paddingHorizontal: 40 }}>Bio: Ea dol djdjf and fkfk ffj lakkd llafjks ifif occset.</Text>
 
                 <Pressable>
                     <Text onPress={() => navigation.navigate('MainScreen')} style={styles.Pressable}>Contact</Text>
@@ -22,7 +22,7 @@ const SeeDetails = ({ navigation }) => {
             </View>
             {/* #f8f8f4 */}
             <View>
-            <View style={{ backgroundColor: '#eeeee4' }}>
+                <View style={{ backgroundColor: '#eeeee4' }}>
                     <View style={{ backgroundColor: '#eeeee4', height: 90, display: 'flex', flexDirection: 'row', marginHorizontal: 'auto' }}>
                         <View style={{ backgroundColor: 'white', height: 60, width: 60, marginVertical: 'auto', marginLeft: 20 }}>
                         </View>
