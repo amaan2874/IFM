@@ -17,6 +17,7 @@ import Expense from './screens/Expense';
 import Gave from './screens/Gave';
 import Got from './screens/Got';
 import Bills from './screens/Bills';
+import DatePicker from './screens/DatePicker';
 
 const Stack=createStackNavigator();
 const AppNavigator = () => {
