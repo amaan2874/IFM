@@ -55,7 +55,7 @@ const Expense = ({navigation}) => {
                     </View>
                     <View style={{ marginVertical: 'auto', width: 140 }}>
                         <Text style={{ fontSize: 16, color: '#DE3B40', fontWeight: 'bold', textAlign: 'center' }}>$100</Text>
-                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Credited</Text>
+                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Debited</Text>
                     </View>
 
 
@@ -95,7 +95,7 @@ const Expense = ({navigation}) => {
                     </View>
                     <View style={{ marginVertical: 'auto', width: 140 }}>
                         <Text style={{ fontSize: 16, color: '#DE3B40', fontWeight: 'bold', textAlign: 'center' }}>$100</Text>
-                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Credited</Text>
+                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Debited</Text>
                     </View>
 
 
@@ -135,7 +135,7 @@ const Expense = ({navigation}) => {
                     </View>
                     <View style={{ marginVertical: 'auto', width: 140 }}>
                         <Text style={{ fontSize: 16, color: '#DE3B40', fontWeight: 'bold', textAlign: 'center' }}>$100</Text>
-                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Credited</Text>
+                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Debited</Text>
                     </View>
 
 
@@ -175,7 +175,7 @@ const Expense = ({navigation}) => {
                     </View>
                     <View style={{ marginVertical: 'auto', width: 140 }}>
                         <Text style={{ fontSize: 16, color: '#DE3B40', fontWeight: 'bold', textAlign: 'center' }}>$100</Text>
-                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Credited</Text>
+                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Debited</Text>
                     </View>
 
 
@@ -215,7 +215,7 @@ const Expense = ({navigation}) => {
                     </View>
                     <View style={{ marginVertical: 'auto', width: 140 }}>
                         <Text style={{ fontSize: 16, color: '#DE3B40', fontWeight: 'bold', textAlign: 'center' }}>$100</Text>
-                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Credited</Text>
+                        <Text style={{ fontSize: 12, color: '#DE3B40', textAlign: 'center' }}>Debited</Text>
                     </View>
 
 

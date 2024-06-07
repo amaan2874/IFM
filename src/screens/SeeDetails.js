@@ -1,14 +1,20 @@
 import React from 'react'
-import { View, Text, ScrollView, Pressable, StyleSheet } from 'react-native'
+import { View, Text, ScrollView, Pressable, StyleSheet, Image } from 'react-native'
 import Feather from 'react-native-vector-icons/dist/Feather';
 
 const SeeDetails = ({ navigation }) => {
     return (
         <ScrollView style={{ margin: 10, marginTop: 20, backgroundColor: '#f8f8f4' }}>
             <View style={{ height: 150, width: 390, backgroundColor: '#019863', alignSelf: 'center', borderRadius: 10 }}>
+                <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg-IUzMRgNjmmgHC21yTNkX9gL3fOnkFdog&s" }} style={{ width: 390, height: 150 }} />
             </View>
-            <View style={{ height: 150, width: 150, backgroundColor: 'white', alignSelf: 'center', marginTop: -70, borderRadius: 100, borderWidth: 2, borderColor: 'black' }}>
+
+
+            <View style={{ height: 150, width: 150, backgroundColor: 'white', alignSelf: 'center', marginTop: -70, borderRadius: 100 }}>
+                <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhBNpkgjs3XiMKEgrTI3fAzQyHoHVB9AMfHU5bjwSW4ckBIgiOd961TtfF2zGZWFWT1E&usqp=CAU" }} style={{ width: 150, height: 150, borderRadius: 100 }} />
             </View>
+
+
             <View>
                 <Text style={{ fontSize: 30, fontWeight: 'bold', color: 'black', textAlign: 'center' }}>Full name</Text>
 
@@ -25,6 +31,7 @@ const SeeDetails = ({ navigation }) => {
                 <View style={{ backgroundColor: '#eeeee4' }}>
                     <View style={{ backgroundColor: '#eeeee4', height: 90, display: 'flex', flexDirection: 'row', marginHorizontal: 'auto' }}>
                         <View style={{ backgroundColor: 'white', height: 60, width: 60, marginVertical: 'auto', marginLeft: 20 }}>
+                            <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsGIeDLXAtfbDZq2-pA4UlI8j-Lt3XMA0ZA&s" }} style={{ width: 60, height: 60 }} />
                         </View>
 
                         <View style={{ marginVertical: 'auto', width: 105 }}>
@@ -58,6 +65,7 @@ const SeeDetails = ({ navigation }) => {
                 <View style={{ backgroundColor: '#f8f8f4' }}>
                     <View style={{ backgroundColor: '#f8f8f4', height: 90, display: 'flex', flexDirection: 'row', marginHorizontal: 'auto' }}>
                         <View style={{ backgroundColor: 'white', height: 60, width: 60, marginVertical: 'auto', marginLeft: 20 }}>
+                        <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGDQkSxGinfHlaKlDew2FB4yrVAHyVuCYwRA&s" }} style={{ width: 60, height: 60 }} />
                         </View>
 
                         <View style={{ marginVertical: 'auto', width: 105 }}>
@@ -91,6 +99,7 @@ const SeeDetails = ({ navigation }) => {
                 <View style={{ backgroundColor: '#eeeee4' }}>
                     <View style={{ backgroundColor: '#eeeee4', height: 90, display: 'flex', flexDirection: 'row', marginHorizontal: 'auto' }}>
                         <View style={{ backgroundColor: 'white', height: 60, width: 60, marginVertical: 'auto', marginLeft: 20 }}>
+                        <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJcNBdgvmC8hacT-LbPs3To19-oFG1LgcIaA&s" }} style={{ width: 60, height: 60 }} />
                         </View>
 
                         <View style={{ marginVertical: 'auto', width: 105 }}>
@@ -124,6 +133,7 @@ const SeeDetails = ({ navigation }) => {
                 <View style={{ backgroundColor: '#f8f8f4' }}>
                     <View style={{ backgroundColor: '#f8f8f4', height: 90, display: 'flex', flexDirection: 'row', marginHorizontal: 'auto' }}>
                         <View style={{ backgroundColor: 'white', height: 60, width: 60, marginVertical: 'auto', marginLeft: 20 }}>
+                            <Text style={{backgroundColor:'lightgray',fontSize:8,marginVertical:'auto'}}>CONSTRUCTION</Text>
                         </View>
 
                         <View style={{ marginVertical: 'auto', width: 105 }}>
